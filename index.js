@@ -19,7 +19,7 @@ const questions = [
 	{
 		type: 'input',
 		message: 'Describe your project.',
-		name: 'task',
+		name: 'description',
 	},
 	{
 		type: 'input',
@@ -45,7 +45,7 @@ const questions = [
 		type: 'list',
 		message: 'Select the License',
 		name: 'license',
-		choices: ['1', '2', '3'],
+		choices: ['MIT', 'Apache', 'LGPL', 'GPLv4'],
 	},
 	{
 		type: 'input',
@@ -57,6 +57,16 @@ const questions = [
 		message: 'Provide any test information for this project.',
 		name: 'tests',
 	},
+	{
+		type: 'input',
+		message: 'What is your github username?',
+		name: 'github',
+	},
+	{
+		type: 'input',
+		message: 'What is your email?',
+		name: 'email',
+	},
 ];
 
 // function to write README file
@@ -66,7 +76,8 @@ function writeToFile(fileName, data) {
 	// call generateMarkdown function and pass response data
 	// because generateMarkdown returns string, need to create variable and store
 	fs.writeFile(fileName, content, (err) => {
-		if (err) console.log(err);
+		if (err) throw err;
+		console.log('New README file successfully generated');
 	});
 }
 
@@ -75,10 +86,7 @@ function init() {
 	inquirer.prompt(questions).then((response) => {
 		console.log(response);
 
-		writeToFile('HomeWork_README.md', response);
-		// if (response.task) {
-		// 	// add Task
-		// }
+		writeToFile('New_README.md', response);
 	});
 }
 

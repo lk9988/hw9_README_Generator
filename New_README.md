@@ -1,29 +1,37 @@
-# sdfkjdslfkj
+# my project
 
   ## Description
 
-  lkjdlfkjldsf
+  I am describing my project with lots of words 
 
+  ## Table of contents
+  - [Installation](#Installation)
+  - [Usage](#Usage )
+  - [Licens](#License )
+  - [Contributing](#Contributing)
+  - [Test](#Test )
+  - [Question](#Question )
+ 
 
   ## Installation 
 
-  ljsdlfjsldkf
+  This is installation instruction with lots of words 
 
 
   ## Usage 
 
-  lkjsldkfjlskdf
+  You are watching q how-to gif
 
-  [!ljlskdjflks](lkjlkjlkdf)
+  ![screenshot1](./img/screenshot1.png)
   
   ## License 
   
-  [![MIT](https://img.shields.io/badge/License-MIT-success)]
+  [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]((https://opensource.org/licenses/MIT))
 
 
   ## Contributing
 
-  lkjlkjsldkfj
+  me
 
 
   ## Test 
@@ -33,7 +41,7 @@
 
   ## Question 
 
-  My GitHub: https://github/lkjlskjdfl
+  My GitHub: https://github/lk9988
 
-  Email: <sldkfjlsdkfj> 
+  Email: <lanabkim@gmail.com> 
 

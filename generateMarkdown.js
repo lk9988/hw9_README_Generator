@@ -24,11 +24,11 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-  [!${data.screenshotTitle}](${data.screenshotFilePath})
+  ![${data.screenshotTitle}](${data.screenshotFilePath})
   
   ## License 
   
-  [![${data.license}](https://img.shields.io/badge/License-${data.license}-success)]
+  [![${data.license}](https://img.shields.io/badge/License-${data.license}-yellow.svg)]((https://opensource.org/licenses/${data.license}))
 
 
   ## Contributing
